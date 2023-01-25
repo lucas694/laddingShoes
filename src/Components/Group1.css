@@ -1,0 +1,24 @@
+.AwardsContainer{
+    @apply w-full px-6 py-6
+    md:px-10 md:py-10
+}
+.AwardsContent{
+    @apply w-full flex flex-row items-center bg-[#FABD2D] justify-around py-7 rounded-[30px]
+    border-[3px] border-b-[6px] border-r-[4px] border-black
+    md:py-10 md:border-b-[10px] md:border-r-[8px] md:rounded-[50px]
+
+}
+.AwardsContent section{
+    @apply flex flex-col items-center
+}
+.AwardsContent h2{
+    font-family: Franchise;
+    @apply text-4xl font-bold uppercase
+    md:text-8xl
+    sm:text-5xl
+}
+.AwardsContent p{
+    @apply text-lg font-bold
+    md:text-3xl md:uppercase
+    sm:text-xl
+}

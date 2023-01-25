@@ -1,0 +1,42 @@
+.FooterContainer{
+    @apply flex w-full px-6 py-8 bg-[#FE2E44] border-t-2 border-gray-800
+    md:px-20 md:py-10
+}
+.FooterContent{
+    @apply flex flex-col w-full justify-between
+    md:flex-row
+}
+.FooterLogo{
+    @apply w-32
+}
+.FooterLeft{
+    @apply flex flex-col w-full  items-center justify-center
+    md:w-auto md:items-start md:justify-start
+}
+.FooterDesc{
+    @apply text-black text-base mt-4 font-semibold
+}
+.FooterSocials{
+    @apply flex flex-row mt-4 w-full items-center justify-center
+    md:justify-start
+
+}
+.FooterSocialIcon{
+    @apply w-6 h-6 mr-4 cursor-pointer hover:text-[#F5F5F5] transition-all duration-300
+}
+.FooterRight{
+    @apply flex flex-row justify-around w-full mt-10
+    md:w-[50%] md:mt-0
+    xl:md:w-[30%]
+}
+.FooterUL{
+    @apply flex flex-col
+}
+.FooterTitle{
+    font-family: Franchise;
+    @apply text-black text-base font-semibold text-4xl mb-3 text-start
+}
+.FooterLi{
+    @apply text-black text-lg font-semibold mb-1 cursor-pointer text-start
+    hover:text-[#F5F5F5] transition-all duration-300
+}

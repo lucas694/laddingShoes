@@ -1,0 +1,11 @@
+.CardsContainer{
+    @apply flex flex-col w-[80%] h-auto m-2 mt-10
+    md:w-[20%] md:mt-0
+    sm:w-[60%] sm:h-auto
+}
+.CardsDesc{
+    @apply mt-4 text-start text-lg text-black font-semibold flex flex-col w-full items-start
+}
+.CardsImg{
+    @apply w-full h-full
+}

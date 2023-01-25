@@ -1,0 +1,23 @@
+.BtnHero{
+    @apply bg-[#AA14F0] text-white font-bold text-lg w-[55%] h-[3em] absolute z-20 top-0 left-0
+    ml-6 mt-2 border-4 border-black shadow-2xl rounded-lg
+    rotate-[-12deg] hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-300
+    lg:ml-24 lg:mt-8
+    md:w-[50%] md:ml-24 md:mt-10 md:text-2xl
+    sm:w-[45%] sm:ml-12
+
+
+
+}
+.TrendingButton{
+   @apply bg-[#AA14F0] text-white font-bold text-lg w-full py-3 border-4 border-black uppercase mt-10
+   shadow-2xl rounded-lg hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-300
+    md:w-[80%]
+    xl:w-[50%]
+}
+.TopCollectionBtn{
+    @apply bg-[#AA14F0] text-white font-bold text-lg w-full py-2 border-2 border-black uppercase mt-4
+    shadow-2xl rounded-lg hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-300
+    md:w-[70%]
+    lg:w-[50%]
+}

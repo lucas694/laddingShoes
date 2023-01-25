@@ -1,0 +1,27 @@
+.HeaderContainer{
+    @apply flex flex-row w-full fixed z-40 border-b-2 border-gray-200 rounded-b-3xl
+}
+.HeaderContent{
+    @apply flex flex-row w-full justify-between px-8 py-6 bg-transparent
+    lg:px-16
+}
+.HeaderUl{
+    @apply flex-row hidden
+    md:flex
+}
+.LiHeader{
+    font-family: default;
+    @apply flex items-center px-4 py-1 rounded-xl font-semibold
+    transition-all duration-300 ease-in-out
+    hover:bg-[#FE2E44] hover:text-white cursor-pointer
+}
+
+.HeaderLogo{
+    @apply w-32
+}
+
+/*Mobile*/
+.HeaderBars{
+    @apply w-8 h-8 fill-[#FE2E44] hover:fill-red-400 cursor-pointer
+    md:hidden
+}

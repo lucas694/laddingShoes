@@ -1,0 +1,74 @@
+.HeroContainer{
+    background-image: linear-gradient(rgba(47, 138, 196,0.2), rgba(47, 138, 196,0.9)),url("../assets/papelbgHero.png");
+        @apply flex flex-col w-full h-[30em] bg-[#2F8AC4]
+        bg-cover bg-center bg-no-repeat
+        md:h-[50em]
+}
+
+.HeroContent{
+    @apply flex flex-row w-full h-full relative justify-center items-end
+}
+.HeroTitle{
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #000;
+    font-family: Franchise;
+    @apply text-[#F2D801] font-bold text-5xl text-center z-20 mt-20
+    xl:text-8xl xl:mt-32
+    md:text-7xl md:mt-32
+    sm:text-6xl sm:mt-24
+}
+.BgContent{
+    @apply w-full absolute bottom-0 left-0 h-[60%] z-0
+    md:h-[90%]
+}
+.shoesL{
+    @apply w-[7em]  absolute top-10 left-0 z-10
+    md:top-28 md:w-[9em]
+}
+.shoesR{
+    @apply w-[7em]  absolute top-10 right-0 z-10
+    md:top-28 md:w-[8em]
+}
+
+.HeroMain{
+    background-image: url("../assets/GridBg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+        @apply  absolute bottom-0 left-1/2 right-1/2 transform -translate-x-1/2 z-10 w-[70%]
+        flex flex-col justify-center items-center
+        xl:w-[30%]
+        lg:w-[50%]
+        md:w-[70%]
+        sm:w-[50%]
+}
+.HeroMainContent{
+    background-image:linear-gradient(rgba(254, 227, 2,0.1), rgba(254, 227, 2,0.3)), url("../assets/papelbgHero.png");
+    background-position: center;
+    background-repeat: no-repeat;
+        @apply h-[17em] w-[15em] rounded-t-full bg-[#FEE302]
+        flex flex-col justify-center items-center
+        md:h-[30em] md:w-[20em]
+}
+.WomanHero{
+    @apply w-full h-full absolute bottom-0 z-10
+    md:w-[80%] md:h-[80%]
+}
+
+.HeroLeft{
+    @apply hidden w-[30%] h-[10em] z-10 mb-14 text-white font-semibold text-lg
+    lg:flex items-center justify-center
+
+ }
+.HeroRight{
+    @apply hidden w-[30%] h-[10em] z-10 mb-14 text-white font-semibold text-lg
+    lg:flex items-center justify-center
+
+ }
+.HeroRight h1{
+    @apply xl:w-[50%] lg:w-[70%]
+
+}
+.HeroLeft h1{
+    @apply xl:w-[50%] lg:w-[70%]
+
+}
